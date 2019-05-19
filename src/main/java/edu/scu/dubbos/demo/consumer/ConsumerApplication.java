@@ -25,7 +25,7 @@ public class ConsumerApplication {
         final DemoService demoService = reference.get();
 
         while (true) {
-            String result = demoService.hello("软件学院-杨斌");
+            String result = demoService.hello("Warkeeper");
             System.out.println(result);
             Thread.sleep(2000);
         }

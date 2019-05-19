@@ -24,7 +24,6 @@ public class ProviderApplication {
         service.setCert("server1-crt.pem");
         service.setKey("server1-key.pem");
         service.setRootCA("server-root-ca.crt");
-
         service.export();
 
         System.in.read();
